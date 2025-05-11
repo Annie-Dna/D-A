@@ -1,49 +1,49 @@
 'use client';
 import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa';
-import SectionIcon from '../common/SectionIcon';
 import Image from 'next/image';
 
 const ContactCTA = () => {
   return (
-    <section className="relative py-20">
-      {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full">
-        <Image
-          src="/images/conceptual-human.jpg"
-          alt="Contact Background"
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0" 
-          style={{ 
-            background: 'linear-gradient(90deg, #5A90A8 0%, rgba(183, 225, 242, 0.53) 50%, #4d7789 100%)'
-          }}>
-        </div>
-      </div>
+    <section className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap items-center -mx-4">
+          {/* Image */}
+          <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+            <div className="relative h-[400px] rounded-[30px] overflow-hidden">
+              <Image
+                src="/images/conceptual-human.jpg"
+                alt="Youth Group"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-[800px] mx-auto text-center">
-          {/* Heading */}
-          <h2 className="text-2xl font-bold text-white mb-6">
-            <SectionIcon />Get in Touch
-          </h2>
-          
-          {/* Subheading */}
-          <p className="text-base md:text-lg lg:text-xl text-white/90 mb-10 leading-relaxed">
-            Ready to find the perfect delivery box for your needs? Contact us at BikeBox Motorcycles Trading LLC today.
-          </p>
-          
-          {/* CTA Button */}
-          <Link 
-            href="/contact"
-            className="inline-flex items-center gap-2 bg-white #5A90A8 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:bg-[#4d7789] hover:text-white hover:gap-4"
-          >
-            Contact Us
-            <FaArrowRight className="text-sm" />
-          </Link>
+          {/* Content */}
+          <div className="w-full lg:w-1/2 px-4">
+            <div className="max-w-lg">
+              <h2 className="text-4xl lg:text-[42px] font-bold text-[#002147] leading-tight mb-6">
+                Join Our Youth Community and Make a Difference
+              </h2>
+              <p className="text-gray-600 mb-8">
+                Ready to be part of something bigger? Join D&A Youth Club and connect with like-minded young individuals who are passionate about personal growth, leadership, and making a positive impact in the community.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/membership"
+                  className="inline-block bg-[#5A90A8] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#4d7789] transition-colors"
+                >
+                  Become a Member
+                </Link>
+                <Link
+                  href="/contact"
+                  className="inline-block border-2 border-[#5A90A8] text-[#5A90A8] px-8 py-4 rounded-full font-semibold hover:bg-[#5A90A8] hover:text-white transition-colors"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

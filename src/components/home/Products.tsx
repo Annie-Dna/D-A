@@ -17,30 +17,48 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
+    name: "After-School Programs",
+    image: "/images/products/after-school.jpg",
+    category: "Education"
+  },
+  {
+    id: 2,
+    name: "Sports Programs",
+    image: "/images/products/sports.jpg",
+    category: "Activities"
+  },
+  {
+    id: 3,
+    name: "Leadership Training",
+    image: "/images/products/leadership.jpg",
+    category: "Development"
+  },
+  {
+    id: 4,
     name: "Ocean Freight",
     image: "/images/portfolio-01.jpg",
     category: "Logistics"
   },
   {
-    id: 2,
+    id: 5,
     name: "Air Freight",
     image: "/images/portfolio-02.jpg",
     category: "Logistics"
   },
   {
-    id: 3,
+    id: 6,
     name: "Road Transport",
     image: "/images/portfolio-03.jpg",
     category: "Transport"
   },
   {
-    id: 4,
+    id: 7,
     name: "Rail Freight",
     image: "/images/portfolio-04.jpg", 
     category: "Transport"
   },
   {
-    id: 5,
+    id: 8,
     name: "Warehousing",
     image: "/images/portfolio-05.jpg",
     category: "Storage"

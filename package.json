@@ -1,7 +1,8 @@
 {
-  "name": "dna-foundation",
+  "name": "dna-youth-club",
   "version": "0.1.0",
   "private": true,
+  "description": "D&A Youth Club website - Empowering young minds to dream big and achieve bigger",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "prisma generate && next build",

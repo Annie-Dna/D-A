@@ -21,6 +21,37 @@ const BlogDetail: React.FC<BlogDetailProps> = ({
   image,
   category 
 }) => {
+  const blogContent = {
+    title: "Empowering Youth Through Community Engagement",
+    content: "Youth development is the cornerstone of a thriving community, fostering leadership, creativity, and personal growth while building lasting connections and positive change.",
+    image: "/images/blog/blog-1.jpg",
+    date: "March 15, 2024",
+    author: "D&A Youth Club Team",
+    categories: ['Youth Programs', 'Community Events'],
+    tags: ['youth development', 'community', 'leadership', 'mentorship']
+  };
+
+  const relatedPosts = [
+    {
+      title: 'The Impact of Youth Mentorship',
+      image: '/images/blog/blog-2.jpg',
+      date: 'March 10, 2024',
+      slug: 'impact-of-youth-mentorship'
+    },
+    {
+      title: 'The Future of Global Logistics',
+      date: 'March 20, 2024',
+      image: '/images/blog-list-img-1.jpg',
+      slug: 'future-of-global-logistics'
+    },
+    {
+      title: 'Innovation in Supply Chain',
+      date: 'March 18, 2024',
+      image: '/images/blog-list-img-2.jpg',
+      slug: 'innovation-in-supply-chain'
+    }
+  ];
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex flex-col lg:flex-row gap-8">
@@ -131,20 +162,7 @@ const BlogDetail: React.FC<BlogDetailProps> = ({
             'Inventory',
             'Supply Chain'
           ]} 
-          recentPosts={[
-            {
-              title: 'The Future of Global Logistics',
-              date: 'March 20, 2024',
-              image: '/images/blog-list-img-1.jpg',
-              slug: 'future-of-global-logistics'
-            },
-            {
-              title: 'Innovation in Supply Chain',
-              date: 'March 18, 2024',
-              image: '/images/blog-list-img-2.jpg',
-              slug: 'innovation-in-supply-chain'
-            }
-          ]} 
+          recentPosts={relatedPosts} 
         />
       </div>
     </div>

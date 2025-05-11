@@ -29,6 +29,14 @@ const BlogList = () => {
       date: 'March 10, 2024',
       views: '189',
       slug: 'sustainable-materials'
+    },
+    {
+      title: "Building Tomorrow's Leaders Through Youth Programs",
+      excerpt: "Discover how our youth programs are creating positive change and developing future leaders in our community.",
+      image: "/images/blog/youth-programs.jpg",
+      date: "March 15, 2024",
+      views: "189",
+      slug: "building-tomorrows-leaders"
     }
   ];
 

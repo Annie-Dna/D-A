@@ -16,6 +16,15 @@ interface BlogSidebarProps {
 }
 
 const BlogSidebar: React.FC<BlogSidebarProps> = ({ categories, recentPosts }) => {
+  const youthFocusedCategories = [
+    'Youth Programs',
+    'Community Events',
+    'Education',
+    'Mentorship',
+    'Sports & Activities',
+    'Leadership Development'
+  ];
+
   return (
     <div className="lg:w-1/3 space-y-8">
       {/* Search Bar */}
@@ -36,7 +45,7 @@ const BlogSidebar: React.FC<BlogSidebarProps> = ({ categories, recentPosts }) =>
       <div className="bg-bg-light p-6 rounded-lg">
         <h3 className="text-xl font-bold text-text-primary mb-6">Category</h3>
         <div className="space-y-3">
-          {categories.map((category, index) => (
+          {youthFocusedCategories.map((category, index) => (
             <Link
               key={index}
               href={`/blog/category/${category.toLowerCase().replace(' ', '-')}`}

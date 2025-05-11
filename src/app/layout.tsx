@@ -12,9 +12,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Box Master Motorcycle Trading - Your Partner in Precision Logistics",
-  description: "At Box Master Motorcycle Trading, we redefine logistics with a focus on precision, efficiency, and global connectivity.",
-  keywords: "logistics, transportation, shipping, warehousing, supply chain, freight",
+  title: "D&A Youth Club - Empowering Youth Through Community",
+  description: "At D&A Youth Club, we empower youth through engaging programs, mentorship, and community building activities.",
+  keywords: "youth club, youth programs, mentorship, community, education, activities, development",
   authors: [{ name: "D&A Youth Club" }],
   creator: "D&A Youth Club",
   themeColor: "#5A90A8",
