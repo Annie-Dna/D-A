@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "./generated/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Membership {
+  id             Int      @id @default(autoincrement())
+  name           String
+  qualification  String
+  occupation     String
+  whatsapp       String?
+  guardianName   String?
+  guardianNumber String?
+  address        String
+  hobbies        String
+  institute      String
+  interests      String[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Contact {
+  id          Int      @id @default(autoincrement())
+  name        String
+  email       String
+  phone       String
+  subject     String
+  message     String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Collaboration {
+  id               Int      @id @default(autoincrement())
+  name             String
+  email            String
+  organization     String
+  collaborationType String
+  message          String   @db.Text
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+} 

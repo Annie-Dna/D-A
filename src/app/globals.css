@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blog Section Styles */
+.blog-item:hover .overlay-shape img {
+  transform: scale(1.1);
+}
+
+.blog-item .overlay-shape img {
+  transition: transform 0.5s ease;
+}
+
+.blog-item .news-date {
+  transition: transform 0.3s ease;
+}
+
+.blog-item:hover .news-date {
+  transform: translateY(-5px);
+}
+
+:root {
+  --primary: #5A90A8;
+  --secondary: #002147;
+}
+
+@layer base {
+  body {
+    @apply text-gray-600 font-normal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#002147] font-bold;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1320px] mx-auto px-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-8 py-3 font-semibold text-sm uppercase tracking-wider transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-[#5A90A8] text-white hover:bg-[#002147];
+  }
+
+  .btn-outline {
+    @apply border-2 border-white text-white hover:bg-white hover:text-[#002147];
+  }
+
+  .section-title {
+    @apply mb-12;
+  }
+
+  .section-title .subtitle {
+    @apply text-[#5A90A8] text-sm font-medium mb-4 inline-block;
+  }
+
+  .section-title .title {
+    @apply text-[42px] leading-[1.2] font-bold;
+  }
+}
+
+/* Swiper styles */
+.swiper-button-disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Play button animation */
+@keyframes playPulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.play-btn-wrapper {
+  position: relative;
+}
+
+.play-btn-wrapper::before,
+.play-btn-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border: 2px solid white;
+  border-radius: 50%;
+  animation: playPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.play-btn-wrapper::after {
+  animation-delay: 1s;
+}
+
+/* Swiper styles */
+.services-swiper {
+  padding: 1rem 0;
+}
+
+.services-swiper .swiper-button-prev,
+.services-swiper .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #666;
+}
+
+.services-swiper .swiper-button-prev:hover,
+.services-swiper .swiper-button-next:hover {
+  color: #5A90A8;
+}
+
+.services-swiper .swiper-button-prev:after,
+.services-swiper .swiper-button-next:after {
+  font-size: 16px;
+}
+
+.services-swiper .swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease forwards;
+}
