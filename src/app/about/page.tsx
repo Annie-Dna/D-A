@@ -7,8 +7,8 @@ import Testimonials from '@/components/home/Testimonials';
 import Team from '@/components/home/Team';
 
 export const metadata = {
-  title: 'About Us | D&A Youth Club',
-  description: 'Learn more about D&A Youth Club, our mission to empower youth, and our commitment to building stronger communities through engaging programs.',
+  title: 'About Us | Dream N Desire',
+  description: 'Learn more about Dream N Desire, our mission to empower youth, and our commitment to building stronger communities through engaging programs.',
 };
 
 export default function AboutPage() {

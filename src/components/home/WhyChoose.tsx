@@ -39,7 +39,7 @@ const WhyChoose = () => {
                     {/* Left Content */}
                     <div className="w-full lg:w-1/2">
                         <h2 className="text-4xl lg:text-5xl font-bold text-[#002147] leading-tight mb-6">
-                            Why Choose D&A Youth Club for{' '}
+                            Why Choose Dream N Desire for{' '}
                             <span className="text-[#5A90A8]">Your Growth</span>
                         </h2>
                         <p className="text-gray-600 mb-12">
@@ -73,7 +73,7 @@ const WhyChoose = () => {
                         <div className="relative w-full aspect-square">
                             <Image
                                 src="/images/achieve.png"
-                                alt="Why Choose D&A Youth Club"
+                                alt="Why Choose Dream N Desire"
                                 fill
                                 className="object-contain"
                             />

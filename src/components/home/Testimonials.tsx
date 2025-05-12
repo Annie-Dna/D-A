@@ -13,19 +13,19 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      text: "D&A Youth Club has been transformative for my personal growth. The mentorship program helped me discover my passion for leadership and gave me the confidence to pursue my dreams.",
+      text: "Dream N Desire has been transformative for my personal growth. The mentorship program helped me discover my passion for leadership and gave me the confidence to pursue my dreams.",
       author: "Sarah A.",
       role: "Club Member, Age 19",
       image: "/images/testimonial-profile.jpg"
     },
     {
-      text: "The skills I learned at D&A Youth Club have been invaluable. From public speaking to project management, every program is designed to help us grow and succeed.",
+      text: "The skills I learned at Dream N Desire have been invaluable. From public speaking to project management, every program is designed to help us grow and succeed.",
       author: "Mohammed K.",
       role: "Student Member, Age 17",
       image: "/images/testimonial-profile.jpg"
     },
     {
-      text: "Being part of D&A Youth Club opened up so many opportunities for me. The supportive community and practical workshops helped me develop both personally and professionally.",
+      text: "Being part of Dream N Desire opened up so many opportunities for me. The supportive community and practical workshops helped me develop both personally and professionally.",
       author: "Aisha R.",
       role: "Alumni Member",
       image: "/images/testimonial-profile.jpg"

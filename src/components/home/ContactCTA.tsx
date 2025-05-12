@@ -26,7 +26,7 @@ const ContactCTA = () => {
                 Join Our Youth Community and Make a Difference
               </h2>
               <p className="text-gray-600 mb-8">
-                Ready to be part of something bigger? Join D&A Youth Club and connect with like-minded young individuals who are passionate about personal growth, leadership, and making a positive impact in the community.
+                Ready to be part of something bigger? Join Dream N Desire and connect with like-minded young individuals who are passionate about personal growth, leadership, and making a positive impact in the community.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link

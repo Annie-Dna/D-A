@@ -12,11 +12,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "D&A Youth Club - Empowering Youth Through Community",
-  description: "At D&A Youth Club, we empower youth through engaging programs, mentorship, and community building activities.",
+  title: "Dream N Desire - Empowering Youth Through Community",
+  description: "At Dream N Desire, we empower youth through engaging programs, mentorship, and community building activities.",
   keywords: "youth club, youth programs, mentorship, community, education, activities, development",
-  authors: [{ name: "D&A Youth Club" }],
-  creator: "D&A Youth Club",
+  authors: [{ name: "Dream N Desire" }],
+  creator: "Dream N Desire",
   themeColor: "#5A90A8",
   icons: {
     icon: "/favicon.ico",
