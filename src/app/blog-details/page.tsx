@@ -4,8 +4,8 @@ import ClientLogos from '@/components/home/ClientLogos';
 import BlogDetail from '@/components/blog/BlogDetail';
 
 export const metadata = {
-  title: 'Blog - D&A Youth Club',
-  description: 'Stay updated with the latest news, insights, and updates from D&A Youth Club.',
+  title: 'Blog - Dream N Desire',
+  description: 'Stay updated with the latest news, insights, and updates from Dream N Desire.',
 };
 
 export default function BlogDetailPage() {

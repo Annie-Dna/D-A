@@ -86,7 +86,7 @@ const About = () => {
 
               {/* Description */}
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
-                D&A Youth Club is dedicated to nurturing young minds and helping them transform their dreams into achievements. We provide a supportive environment where youth can discover their potential, develop essential skills, and build lasting connections.
+                Dream N Desire is dedicated to nurturing young minds and helping them transform their dreams into achievements. We provide a supportive environment where youth can discover their potential, develop essential skills, and build lasting connections.
               </p>
 
               {/* Features */}

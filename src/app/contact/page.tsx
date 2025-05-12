@@ -5,8 +5,8 @@ import ClientLogos from '@/components/home/ClientLogos';
 import TrustLine from '@/components/common/TrustLine';
 
 export const metadata = {
-  title: 'Contact Us | D&A Youth Club',
-  description: 'Get in touch with D&A Youth Club to learn more about our youth programs and how to get involved.',
+  title: 'Contact Us | Dream N Desire',
+  description: 'Get in touch with Dream N Desire to learn more about our youth programs and how to get involved.',
 };
 
 export default function ContactPage() {
