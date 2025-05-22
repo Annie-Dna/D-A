@@ -22,7 +22,7 @@ const Blog = () => {
   const blogPosts: BlogPost[] = [
     {
       id: 1,
-      title: 'Dream N Desire Embraces AI for Optimized Route Planning',
+      title: 'Dream N Achieve Embraces AI for Optimized Route Planning',
       image: '/images/blog01.jpg',
       date: {
         day: '10',
@@ -34,7 +34,7 @@ const Blog = () => {
     },
     {
       id: 2,
-      title: 'How Dream N Desire is Adapting to Meet Growing Demand',
+      title: 'How Dream N Achieve is Adapting to Meet Growing Demand',
       image: '/images/blog02.jpg',
       date: {
         day: '10',
@@ -46,7 +46,7 @@ const Blog = () => {
     },
     {
       id: 3,
-      title: "Dream N Desire's Commitment to Eco-Friendly Practices",
+      title: "Dream N Achieve's Commitment to Eco-Friendly Practices",
       image: '/images/blog03.jpg',
       date: {
         day: '10',
@@ -69,7 +69,7 @@ const Blog = () => {
               </h2>
             </div>
             <h2 className="text-[#002147] text-4xl lg:text-[42px] font-bold leading-[1.2]">
-              Dream N Desire News & Insights
+              Dream N Achieve News & Insights
             </h2>
           </div>
           <Link 

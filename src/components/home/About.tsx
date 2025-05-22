@@ -81,12 +81,12 @@ const About = () => {
               <h2 className="text-[#002147] text-2xl sm:text-3xl lg:text-4xl xl:text-[42px] font-bold leading-[1.2] mb-5">
                 Empowering Youth to Dream
                 <br className="hidden sm:block" />
-                and Achieve Excellence
+                N Achieve Excellence
               </h2>
 
               {/* Description */}
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8">
-                Dream N Desire is dedicated to nurturing young minds and helping them transform their dreams into achievements. We provide a supportive environment where youth can discover their potential, develop essential skills, and build lasting connections.
+                Dream N Achieve is dedicated to nurturing young minds and helping them transform their dreams into achievements. We provide a supportive environment where youth can discover their potential, develop essential skills, and build lasting connections.
               </p>
 
               {/* Features */}

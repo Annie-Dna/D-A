@@ -14,7 +14,7 @@ const Footer = () => {
             <Link href="/" className="inline-block mb-8">
               <Image
                 src="/images/logo.png"
-                alt="Dream N Desire"
+                alt="Dream N Achieve"
                 width={150}
                 height={60}
                 className="h-auto"
@@ -149,7 +149,7 @@ const Footer = () => {
         <div className="container py-6">
           <div className="flex flex-wrap justify-between items-center gap-4">
             <p className="text-gray-300">
-              © {new Date().getFullYear()} Dream N Desire. All Rights Reserved.
+              © {new Date().getFullYear()} Dream N Achieve. All Rights Reserved.
             </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="text-gray-300 hover:text-[#5A90A8] transition-colors">

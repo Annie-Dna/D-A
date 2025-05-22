@@ -2,7 +2,7 @@
   "name": "dna-youth-club",
   "version": "0.1.0",
   "private": true,
-  "description": "Dream N Desire website - Empowering young minds to dream big and achieve bigger",
+  "description": "Dream N Achieve website - Empowering young minds to dream big Dream N Achieve bigger",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "prisma generate && next build",
