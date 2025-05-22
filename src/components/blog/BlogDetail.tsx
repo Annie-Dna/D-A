@@ -26,7 +26,7 @@ const BlogDetail: React.FC<BlogDetailProps> = ({
     content: "Youth development is the cornerstone of a thriving community, fostering leadership, creativity, and personal growth while building lasting connections and positive change.",
     image: "/images/blog/blog-1.jpg",
     date: "March 15, 2024",
-    author: "Dream N Desire Team",
+    author: "Dream N Achieve Team",
     categories: ['Youth Programs', 'Community Events'],
     tags: ['youth development', 'community', 'leadership', 'mentorship']
   };

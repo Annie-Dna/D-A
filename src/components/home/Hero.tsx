@@ -12,7 +12,7 @@ const Hero = () => {
     {
       title: "Empowering Youth",
       subtitle: "Shape Your Future",
-      description: "Dream N Desire is dedicated to nurturing young minds through mentorship, skill development, and engaging activities that prepare you for a successful future.",
+      description: "Dream N Achieve is dedicated to nurturing young minds through mentorship, skill development, and engaging activities that prepare you for a successful future.",
       image: "/images/hero-section-bg.jpg",
     },
     {
@@ -24,7 +24,7 @@ const Hero = () => {
     {
       title: "Dream Big",
       subtitle: "Achieve More",
-      description: "At Dream N Desire, we believe in the power of dreams. Our expert mentors and state-of-the-art facilities help transform your aspirations into achievements.",
+      description: "At Dream N Achieve, we believe in the power of dreams. Our expert mentors and state-of-the-art facilities help transform your aspirations into achievements.",
       image: "/images/hero-section-bg.jpg",
     }
   ];
@@ -77,7 +77,7 @@ const Hero = () => {
                     style={{ clipPath: 'polygon(0 0, 100% 0, 95% 100%, 0% 100%)' }}
                   >
                     <div className="bg-[#5A90A8] text-white px-8 py-3 text-sm font-medium">
-                      Welcome to Dream & Achieve Youth Club
+                      Welcome to Dream N Achieve Youth Club
                     </div>
                     <div className="absolute left-0 top-0 w-1 h-full bg-white"></div>
                   </div>

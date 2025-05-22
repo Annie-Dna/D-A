@@ -24,7 +24,7 @@ const AboutHero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
-          <h1 className="text-5xl font-bold text-white mb-4">About Dream N Desire</h1>
+            <h1 className="text-5xl font-bold text-white mb-4">About Dream N Achieve</h1>
           <p className="text-xl text-white/90 mb-6 max-w-2xl mx-auto">
             Dream big, Achieve bigger. Join us in shaping the future leaders of tomorrow.
           </p>

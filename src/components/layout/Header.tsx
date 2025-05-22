@@ -63,7 +63,7 @@ const Header = () => {
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="/images/logo.png"
-                alt="Dream N Desire"
+                alt="Dream N Achieve"
                 width={120}
                 height={60}
                 className="h-auto"
@@ -142,7 +142,7 @@ const Header = () => {
             <div className="flex justify-between items-center mb-8">
               <Image
                 src="/images/logo.png"
-                alt="Dream N Desire"
+                alt="Dream N Achieve"
                 width={140}
                 height={46}
                 className="h-auto"
